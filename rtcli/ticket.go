@@ -19,6 +19,7 @@ type TicketCreateOptions struct {
 	Content      string            `json:"Content,omitempty"`
 	ContentType  string            `json:"ContentType,omitempty"`
 	Parent       string            `json:"Parent,omitempty"`
+	Due          string            `json:"Due,omitempty"`
 	CustomFields map[string]string `json:"CustomFields,omitempty"`
 }
 
